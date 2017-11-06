@@ -1,0 +1,155 @@
+body
+{
+	background-color: #AAB7B8;
+	color: #000000  ;
+}
+
+#wrapper
+{
+	width: 900px;
+	margin: auto;
+}
+
+/*-----------------------------header----------------------------*/
+
+header
+{
+	background-color: #EAEDED;
+	width: 900px;
+	margin: auto;
+	border-radius: 10px;
+	box-shadow: 5px 5px 5px ;
+	display: flex;
+	justify-content: space-between;
+
+}
+
+#tetedepage:nth-child(1)
+{
+	order: 2;
+}
+
+#correspondance:nth-child(2)
+{
+	order: 3;
+}
+
+p 
+{
+	padding: 15px;
+}
+
+h3
+{
+	padding: 15px;
+}
+
+.ma_photo
+{
+	padding: 15px;
+	box-shadow: 4px 4px 4px #AAB7B8;
+}
+
+h1
+{
+	box-shadow: 3px 3px 3px #AAB7B8;
+}
+/*------------------------------------corp de page----------------------*/
+
+section
+{
+	width: 900px;
+	display: flex;
+	margin: auto;
+	margin-top: 20px;
+}
+ aside
+{
+
+	margin: 10px;
+	width: 200px;
+	height: 100%;
+	background-color: #5A7B66;
+ 	border-radius: 10px;
+ 	text-align: justify;
+ 	box-shadow: 5px 5px 5px;
+}
+
+}
+h5
+{
+	text-decoration: underline;
+}
+
+#sociopro
+{
+	list-style-image: url('images/fleche15x15.png');
+	text-align: center;
+}
+
+#socioperso
+{
+	list-style-image: url('images/fleche15x15.png');
+	margin-right: 10px;
+}
+#corpdepage
+{
+	display: flex;
+	justify-content: space-between;
+	background-color: #EAEDED;
+	margin: 10px;
+	border-radius: 10px;
+	box-shadow: 5px 5px 5px;
+}
+
+#domaine
+{
+	list-style-image: url('images/fleche15x15.png');
+	text-align: center;
+	padding-left: 10px;
+	
+}
+
+#experience
+{
+	text-align: center;
+	list-style-image: url('images/fleche15x15.png');
+}
+
+h4 
+{
+	text-align: center;
+}
+
+h5
+{
+	text-align: center;
+}
+
+#sociopro, li
+{
+	text-align: center;
+}
+
+/*------------------------------------Pied de page----------------------*/
+
+footer
+{
+	background-color: #EAEDED;
+	width: 900px;
+	margin: auto;
+	border-radius: 10px;
+	box-shadow: 5px 5px 5px;
+	padding-top: 10px;
+    text-align: justify;
+    margin-top: 20px;
+}
+
+footer p
+{
+	text-align: center;
+
+}
+
+
+
